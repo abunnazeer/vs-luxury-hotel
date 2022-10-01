@@ -1,0 +1,246 @@
+@import url("other.css");
+body{
+    margin: 0px;
+}
+h2{
+    margin: 0px;
+}
+
+.header-navigation{
+    z-index: 1;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    margin-bottom: 200px;
+    border-bottom: red 2px solid;
+    background: #fff;
+
+
+}
+.logo img{
+  height: 80px;
+  margin-left: 50px;
+}
+.header-navigation ul{
+    position: absolute;
+    top: 20px;
+    right: 50px;
+}
+.header-navigation li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 20px;
+   
+    font-size: 18px;
+}
+
+.header-navigation a{
+   text-decoration: none;
+   color: #f00;
+}
+.header-navigation a{
+    text-decoration: none;
+    color: #f00;
+ }
+
+ .header-navigation a:hover{
+    text-decoration: none;
+    color: #C6C3C3;
+ }
+
+
+.banner {
+    width: 100%;
+   
+}
+
+.banner img{
+    width: 100%;
+    height: 600px;
+}
+.search-form{
+    position: relative;
+    bottom: 50px;
+    background: #fff;
+    box-shadow: #C6C3C3 1px 1px 1px 1px;
+    border-radius: 12px;
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    padding: 20px 0px 20px 0px;
+    
+}
+.search-form input[type="date" i] {
+    height: 40px;
+    width: 200px;
+    border-radius: 8px;
+    border: #C6C3C3 1px solid;
+    margin-right: 30px;
+}
+
+#select-room{
+    height: 44px;
+    border-radius: 8px;
+    border: #C6C3C3 1px solid;
+    margin-right: 30px;
+}
+
+#select-adult{
+    height: 44px;
+    width: 70px;
+    border-radius: 8px;
+    margin-right: 10px;
+    border: #C6C3C3 1px solid;
+}
+
+.search-form input[type="submit" i]{
+    height: 45px;
+    width: 100px;
+    background: #ff0000;
+    color: #fff;
+    border-radius: 8px;
+    border: #C6C3C3 1px solid;
+}
+
+.featured-rooms{
+    width: 90%;
+    margin: auto;
+   
+}
+
+ h2{
+ text-align: center;
+
+   
+}
+
+ span{
+    color: #ff0000;
+    
+}
+hr{
+    
+    width: 80px;
+    border-bottom: #C6C3C3 5px dotted;
+    border-top: none;
+    margin-bottom: 20px;
+}
+
+.rooms-container{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: auto auto auto;
+    align-content: center;
+}
+
+.room-box{
+    position: relative;
+    bottom: 0px;
+}
+
+.room-box h4{
+    background: #ffffffe3;
+    height: 50px;
+    width: 371px;
+    border-radius: 0px 0px 12px 12px;
+    position: absolute;
+    top: 185px;
+    left: 0px;
+    right: 8px;
+    bottom: 1px;
+    padding-top: 29px;
+}
+.room-name{
+    padding-left: 10px;
+}
+
+.room-box span{
+    position: inherit;
+    left: 330px;
+}
+
+.review h2{
+    margin-top: 20px;
+}
+
+.review-box{
+    display: flex;
+    flex-direction: row;
+    background: #c6c3c3b0;
+    padding: 50px 24px 25px 2px;
+    justify-content: space-evenly;
+
+}
+
+.reviewer{
+    
+    text-align: center;
+    width: 28%;
+}
+
+.reviewer img{
+    width: 100px;
+    height: 100px;
+}
+
+.reviewer h4{
+   margin: 0px;
+}
+
+.reviewer p{
+    color: rgba(0, 0, 0, 0.7);
+    line-height: 1.7;
+ }
+.footer{
+    background: #000;
+    text-align: center;
+}
+
+.footer p{
+    color: #fff;
+    padding: 20px;
+    margin: 0px;
+}
+
+
+
+.restarant-container{
+    margin-top: 103px;
+
+}
+
+.rest-box{
+width: 80%;
+height: 200px;
+margin: 0px auto 20px auto;
+border: #000 1px solid;
+padding: 30px;
+}
+
+.rest-box img{
+    margin-right: 10px;
+    width: 300px;
+    height: 200px;
+    float: left;
+    border-radius: 12px;
+   
+}
+
+.rest-box .descr{
+    text-align: justify;
+    width: 90%;
+    font-size: 19px;
+    font-style: italic;
+}
+
+.rest-box .read-more{
+    float: right;
+    font-style: italic;
+
+}
+
+.clear-float{
+    clear: both;
+}

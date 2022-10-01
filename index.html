@@ -8,40 +8,120 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+       <!-- NAVIGATION BAR    -->
     <div class="header-navigation">
+        <div class="logo"><a href="index.html"> <img src="assets/logo.png" alt="logo"></a>
+           
+        </div>
         <ul>
-            <li>Home</li>
-            <li>Dining</li>
-            <li>Cruise Ship Hotel</li>
-            <li>Events</li>
-            <li>Gallery</li>
-            <li>Contact Us</li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="pages/dining.html">Dining</a></li>
+            <li><a href="pages/reversation.html">Reversation</a></li>
+            <li><a href="pages/events.html">Events</a></li>
+            <li><a href="pages/gallery.html">Gallery</a></li>
+            <li><a href="pages/contact.html">Contact Us</a></li>
         </ul>
     </div>
+       <!-- BANNER OR SLIDER SECTION    -->
     <div class="banner">
-        <img src="assets/bannerjpeg" alt="banner">
+        <img src="assets/banner.png" alt="banner">
     </div>
-    <div class="search-form"></div>
+
+    <!-- SEARCH ROOM FORM    -->
+    <div class="search-form">
+        <form action="">
+            <label for="date">CHECK IN</label>
+            <input type="date">
+
+            <label for="date">CHECK OUT</label>
+            <input type="date">
+
+            <label for="select-room">ROOMS</label>
+            <select  id="select-room">
+                <option value="1">One BedRoom</option>
+                <option value="2">Two Bedrooms</option>
+                <option value="3">Pavilion Luxury</option>
+            </select>
+
+            <label for="select-adult">ADULT</label>
+            <select  id="select-adult">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <input type="submit" value="SEARCH">
+            </select>
+        </form>
+
+    </div>
+       <!-- ROOMS IN THE HOME PAGE    -->
     <div class="featured-rooms">
-        <h1>OUR ROOMS</h1>
+        <h2><span>OUR</span> ROOMS</h2>
+        <hr>
+        <div class="rooms-container">
         <div class="room-box">
-            <img src="assets/rooms_photos/donald-tong.jpg" alt="donald-tong">
+            <img src="assets/rooms_photos/terry-magallanes1.png" alt="">
+            <h4 class="room-name">Two BedRoom <span>$200</span></h4>
+          
         </div>
+
         <div class="room-box">
-            <img src="assets/rooms_photos/engin-akyurt.jpg" alt="engin-akyurt">
+            <img src="assets/rooms_photos/terry-magallanes1.png" alt="">
+            <h4 class="room-name">Two BedRoom <span>$200</span></h4>
+          
         </div>
+
         <div class="room-box">
-            <img src="assets/rooms_photos/jean-van-der-meulen-.jpg" alt="jean-van-der-meulen-">
+            <img src="assets/rooms_photos/terry-magallanes1.png" alt="">
+            <h4 class="room-name">Two BedRoom <span>$200</span></h4>
+          
         </div>
+
         <div class="room-box">
-            <img src="assets/rooms_photos/m&w-studios-.jpg" alt="mwstudieo">
+            <img src="assets/rooms_photos/terry-magallanes1.png" alt="">
+            <h4 class="room-name">Two BedRoom <span>$200</span></h4>
+          
         </div>
+
         <div class="room-box">
-            <img src="assets/rooms_photos/pixabay-2.jpg" alt="pixabay-2">
+            <img src="assets/rooms_photos/terry-magallanes1.png" alt="">
+            <h4 class="room-name">Two BedRoom <span>$200</span></h4>
+          
         </div>
     </div>
-    <div class="review"></div>
-    <div class="footer"></div>
+    </div>
+    <div class="review">
+        <h2><span>TEST</span>IMONIAL</h2>
+        <hr>
+
+        <div class="review-box">
+            <div class="reviewer">
+            <img src="assets/icons/avatar.png" alt="">
+            <h4>Abdullahi Ahmad</h4>
+            <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,</p>
+        </div>
+
+ 
+            <div class="reviewer">
+            <img src="assets/icons/avatar.png" alt="">
+            <h4>Fatima Ahmad</h4>
+            <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,</p>
+        </div>
+
+      
+            <div class="reviewer">
+            <img src="assets/icons/avatar.png" alt="">
+            <h4>Fatima Ahmad</h4>
+            <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,</p>
+        </div>
+
+
+    </div>
+    </div>
+
+    <div class="footer">
+        <p>Copyright © 2022 vs luxury hotel. All Rights</p>
+    </div>
+
     
 </body>
 </html>
