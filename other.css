@@ -150,3 +150,65 @@
     width: 350px;
     height: 250px;
 }
+
+
+
+.contact-container{
+    width: 90%;
+    margin-top: 110px;
+    margin-left: auto;
+
+}
+
+.get-intouch{
+    width: 40%;
+    border: #C6C3C3 1px solid;
+    padding: 20px;
+    margin-bottom: 20px;
+    margin-right: 50px;
+  
+}
+
+.get-intouch input[type="email" i] {
+    width: 389px;
+    height: 30px;
+   margin-bottom: 25px;
+}
+
+.get-intouch h4{
+    color: #ff0000;
+    text-align: center;
+}
+
+.get-intouch p{
+    color: #C6C3C3;
+}
+
+.get-intouch input[type="submit" i]{
+    position: relative;
+    left: 317px;
+    background: red;
+    height: 30px;
+    width: 80px;
+    border-color: #ff0000;
+    color: #fff;
+}
+
+
+.info{
+    width: 30%;
+    border: #C6C3C3 1px solid;
+    padding: 20px;
+    margin-bottom: 20px; 
+}
+
+.info h4{
+    color: #ff0000;
+    text-align: center;
+}
+
+.contact-flex{
+    display: flex;
+    flex-direction: row;
+}
+
