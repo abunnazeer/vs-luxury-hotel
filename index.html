@@ -1,127 +1,120 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>VS LUXURY HOTEL</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-       <!-- NAVIGATION BAR    -->
-    <div class="header-navigation">
-        <div class="logo"><a href="index.html"> <img src="assets/logo.png" alt="logo"></a>
-           
-        </div>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="pages/dining.html">Dining</a></li>
-            <li><a href="pages/reversation.html">Reversation</a></li>
-            <li><a href="pages/events.html">Events</a></li>
-            <li><a href="pages/gallery.html">Gallery</a></li>
-            <li><a href="pages/contact.html">Contact Us</a></li>
-        </ul>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- NAVIGATION BAR    -->
+    <div class="header-navigation mobile-header">
+      <div class="logo">
+        <a href="index.html"> <img src="assets/logo.png" alt="logo" /></a>
+        <button class="menu-toggle hide-toggle">::</button>
+      </div>
+      <ul class="mobile-menu hide-mobile-menu navbar">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="pages/dining.html">Dining</a></li>
+        <li><a href="pages/reversation.html">Reversation</a></li>
+        <li><a href="pages/events.html">Events</a></li>
+        <li><a href="pages/gallery.html">Gallery</a></li>
+        <li><a href="pages/contact.html">Contact Us</a></li>
+      </ul>
     </div>
-       <!-- BANNER OR SLIDER SECTION    -->
+    <!-- BANNER OR SLIDER SECTION    -->
     <div class="banner">
-        <img src="assets/banner.png" alt="banner">
+      <img src="assets/banner.png" alt="banner" />
     </div>
 
     <!-- SEARCH ROOM FORM    -->
     <div class="search-form">
-        <form action="">
-            <label for="date">CHECK IN</label>
-            <input type="date">
+      <form action="" class="form-grid-two">
+        <div class="two-col">
+          <label for="date">CHECK IN</label>
+          <input type="date" />
+        </div>
 
-            <label for="date">CHECK OUT</label>
-            <input type="date">
+        <div class="two-col">
+          <label for="date">CHECK OUT</label>
+          <input type="date" />
+        </div>
 
-            <label for="select-room">ROOMS</label>
-            <select  id="select-room">
-                <option value="1">One BedRoom</option>
-                <option value="2">Two Bedrooms</option>
-                <option value="3">Pavilion Luxury</option>
-            </select>
+        <div class="two-col">
+          <label for="select-room">ROOMS</label>
 
-            <label for="select-adult">ADULT</label>
-            <select  id="select-adult">
-                <option value="1">1</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-                <input type="submit" value="SEARCH">
-            </select>
-        </form>
+          <select id="select-room">
+            <option value="1">One BedRoom</option>
+            <option value="2">Two Bedrooms</option>
+            <option value="3">Pavilion Luxury</option>
+          </select>
+        </div>
 
+        <div class="two-col">
+          <label for="select-adult">ADULT</label>
+          <select id="select-adult">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+          </select>
+        </div>
+        <input type="submit" value="SEARCH" />
+      </form>
     </div>
-       <!-- ROOMS IN THE HOME PAGE    -->
-    <div class="featured-rooms">
-        <h2><span>OUR</span> ROOMS</h2>
-        <hr>
-        <div class="rooms-container">
+    <!-- ROOMS IN THE HOME PAGE    -->
+    <div class="main-container">
+      <h2><span>OUR</span> ROOMS</h2>
+      <hr />
+      <div class="rooms-container">
         <div class="room-box">
-            <img src="assets/rooms_photos/terry-magallanes1.png" alt="">
-            <h4 class="room-name">Two BedRoom <span>$200</span></h4>
-          
+          <img src="assets/rooms_photos/donald-tong.jpg" alt="" />
+          <h4 class="room-name">
+            Two BedRoom <span class="room-price">$200</span>
+          </h4>
         </div>
-
         <div class="room-box">
-            <img src="assets/rooms_photos/terry-magallanes1.png" alt="">
-            <h4 class="room-name">Two BedRoom <span>$200</span></h4>
-          
+          <img src="assets/rooms_photos/engin-akyurt.jpg" alt="" />
+          <h4 class="room-name">
+            Two BedRoom <span class="room-price">$200</span>
+          </h4>
         </div>
-
         <div class="room-box">
-            <img src="assets/rooms_photos/terry-magallanes1.png" alt="">
-            <h4 class="room-name">Two BedRoom <span>$200</span></h4>
-          
+          <img src="assets/rooms_photos/suhel-vba.jpg" alt="" />
+          <h4 class="room-name">
+            Two BedRoom <span class="room-price">$200</span>
+          </h4>
         </div>
-
         <div class="room-box">
-            <img src="assets/rooms_photos/terry-magallanes1.png" alt="">
-            <h4 class="room-name">Two BedRoom <span>$200</span></h4>
-          
+          <img src="assets/rooms_photos/jean-van-der-meulen-.jpg" alt="" />
+          <h4 class="room-name">
+            Two BedRoom <span class="room-price">$200</span>
+          </h4>
         </div>
-
-        <div class="room-box">
-            <img src="assets/rooms_photos/terry-magallanes1.png" alt="">
-            <h4 class="room-name">Two BedRoom <span>$200</span></h4>
-          
-        </div>
+      </div>
     </div>
-    </div>
-    <div class="review">
-        <h2><span>TEST</span>IMONIAL</h2>
-        <hr>
 
-        <div class="review-box">
-            <div class="reviewer">
-            <img src="assets/icons/avatar.png" alt="">
-            <h4>Abdullahi Ahmad</h4>
-            <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,</p>
-        </div>
-
- 
-            <div class="reviewer">
-            <img src="assets/icons/avatar.png" alt="">
-            <h4>Fatima Ahmad</h4>
-            <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,</p>
-        </div>
-
-      
-            <div class="reviewer">
-            <img src="assets/icons/avatar.png" alt="">
-            <h4>Fatima Ahmad</h4>
-            <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,</p>
-        </div>
-
-
-    </div>
+    <div class="review-container">
+      <h2><span>TEST</span>IMONIAL</h2>
+      <hr />
+      <div class="review-box">
+        <img src="assets/icons/avatar.png" id="person" alt="" />
+        <h4 class="review-title">Abdullahi Ahmad</h4>
+        <p class="review-description">
+          It is a long established fact that a reader will be distracted by the
+          readable content of a page when looking at its layout. The point of
+          using Lorem Ipsum is that it has a more-or-less normal distribution of
+          letters,
+        </p>
+        <img src="assets/icons/prev.svg" id="prev" alt="" />
+        <img src="assets/icons/next.svg" id="next" alt="" />
+      </div>
     </div>
 
     <div class="footer">
-        <p>Copyright © 2022 vs luxury hotel. All Rights</p>
+      <p>Copyright © 2022 vs luxury hotel. All Rights</p>
     </div>
 
-    
-</body>
+    <script src="app.js"></script>
+  </body>
 </html>

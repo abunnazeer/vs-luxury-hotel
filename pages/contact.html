@@ -1,73 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contact Us</title>
-    <link rel="stylesheet" href="../styles.css">
-</head>
-<body>
-
+    <link rel="stylesheet" href="../styles.css" />
+  </head>
+  <body>
     <!-- NAVIGATION BAR    -->
-    <div class="header-navigation">
-        <div class="logo"><a href="../index.html"> <img src="../assets/logo.png" alt="logo"></a>
-           
-        </div>
-        <ul>
-            <li><a href="../index.html">Home</a></li>
-            <li><a href="../pages/dining.html">Dining</a></li>
-            <li><a href="../pages/reversation.html">Reversation</a></li>
-            <li><a href="../pages/events.html">Events</a></li>
-            <li><a href="../pages/gallery.html">Gallery</a></li>
-            <li><a href="../pages/contact.html">Contact Us</a></li>
-        </ul>
+    <div class="header-navigation mobile-header">
+      <div class="logo">
+        <a href="../index.html"> <img src="../assets/logo.png" alt="logo" /></a>
+        <button class="menu-toggle hide-toggle">::</button>
+      </div>
+      <ul class="mobile-menu hide-mobile-menu navbar">
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../pages/dining.html">Dining</a></li>
+        <li><a href="../pages/reversation.html">Reversation</a></li>
+        <li><a href="../pages/events.html">Events</a></li>
+        <li><a href="../pages/gallery.html">Gallery</a></li>
+        <li><a href="../pages/contact.html">Contact Us</a></li>
+      </ul>
     </div>
 
+    <div class="contact-container">
+      <h2><span>CONTACT</span> US</h2>
+      <hr />
 
-<div class="contact-container">
-        <h2><span>CONTACT</span> US</h2>
-        <hr>
-
-    <div class="contact-flex">
+      <div class="contact-flex">
         <div class="get-intouch">
-            <h4>GET IN TOUCH</h4>
-            <form action="">
-                <label for="email">EMAIL</label><br>
-                <input type="email"><br>
-                <label for="email">NAME</label><br>
-                <input type="email"><br>
-                <label for="message">MESSAGE</label><br>
-                <textarea name="message" id="" cols="51" rows="10"></textarea><br>
-                <p>* All fields are mandatory.</p>
-                <input type="submit" value="SUBMIT">
-            </form>
-         </div>
-   
-    
-
-         <div class="info">
-        <h4>INFORMATION</h4>
-
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit 
-            eveniet repellat possimus.</p>
-        <h3>ADDRESS</h3>
-        <p>10987 1st Avenue, Lorem City, CA</p>
-
-        <h3>PHONE</h3>
-        <p>+23470555400/+23500987878</p>
-
-        <h3>EMAIL</h3>
-        <p>vsluxuryhotel@gmail.com</p>
+          <h4>GET IN TOUCH</h4>
+          <form action="">
+            <label for="email">EMAIL</label><br />
+            <input type="email" /><br />
+            <label for="email">NAME</label><br />
+            <input type="email" /><br />
+            <label for="message">MESSAGE</label><br />
+            <textarea name="message" id="" cols="51" rows="10"></textarea><br />
+            <p>* All fields are mandatory.</p>
+            <input type="submit" value="SUBMIT" />
+          </form>
         </div>
 
+        <div class="info">
+          <h4>INFORMATION</h4>
 
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit eveniet
+            repellat possimus.
+          </p>
+          <h3>ADDRESS</h3>
+          <p>10987 1st Avenue, Lorem City, CA</p>
+
+          <h3>PHONE</h3>
+          <p>+23470555400/+23500987878</p>
+
+          <h3>EMAIL</h3>
+          <p>vsluxuryhotel@gmail.com</p>
+        </div>
+      </div>
     </div>
-
-</div>
 
     <div class="footer">
-        <p>Copyright © 2022 vs luxury hotel. All Rights</p>
+      <p>Copyright © 2022 vs luxury hotel. All Rights</p>
     </div>
-</body>
+    <script src="../app.js"></script>
+  </body>
 </html>
